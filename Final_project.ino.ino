@@ -63,8 +63,8 @@ attachInterrupt(physicalButtonRight, Right ,RISING);
 void loop() 
 {
  
-		leftServo.write(0);    
-    rightServo.write(180);
+    leftServo.write(signal_1);    
+    rightServo.write(signal_2);
 
 }
 
